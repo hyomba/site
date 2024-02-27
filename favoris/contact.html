@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>KNDH-Contact</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="entete">
+        <nav >
+            <a href="acceuil.html" class="lien-icone">
+                <img src="images/KNDH.jpg" alt="Logo KNDH" />
+            </a>
+            <div class="liens">
+                <a href="recherche.html">Recherche
+                    <img src="images/recherche.jpg" alt="Logo recherche">
+                </a>
+                <a href="se_connecter.html">Se Connecter
+                    <img src="images/connection.jpg" alt="Logo connection ">
+                </a>
+                <a href="favoris.html">Favoris
+                    <img src="images/favoris.jpg" alt="Logo favoris ">
+                </a>
+                <a href="panier.html">Mon Panier
+                    <img src="images/panier.jpg" alt="Logo panier">
+                </a>
+            </div>
+        </nav>
+        <div>
+            <h2 class="menu">
+                <a href="acceuil.html">Accueil</a>
+                <a href="categories.html">Categories</a>
+                <a href="soldes.html">Soldes</a>
+                <a href="aide.html">Aide</a>
+            </h2>
+        </div>
+        
+    </header>
+    <main id="contact" class="section-contact">
+        <section >
+            <h1>Des Question? Ecrivez nous.</h1>
+            <form method="get" action="">
+                <div class="form-nom-prenom-telephone-email">
+                    <div class="form-column">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" />
+                    </div>
+                    <div class="form-column">
+                        <label for="prenom">Prenom</label>
+                        <input type="text" name="prenom" id="prenom" />
+                    </div>
+                    <div class="form-column">
+                        <label for="numero">Numero de telephone</label>
+                        <input type="tel" name="numero" id="numero" />
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Email</label>
+                        <input type="e-mail" name="email" id="email" />
+                    </div>
+                </div>
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta" />
+            </form>
+        </section>
+    </main>
+    <footer class="pied">
+        <a href="index.html" class="lien-icone">
+            <img src="images/KNDH.jpg" alt="Logo KNDH" />
+        </a>
+        <div>
+            <ul>
+              <li class="titre">Compte</li>
+              <li>
+                 <a href="panier.html">Etat de la commande</a>
+              </li>
+              <li>
+                 <a href="compte.html">Gestion de compte</a>
+              </li>
+              <li>
+                 <a href="favoris.html">Centre de preferences</a>
+              </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="titre">A Propos de nous</li>
+                <li>
+                   <a href="infos.html">Information sur l'entreprise</a>
+                </li>
+                <li>
+                   <a href="postulez.html">Postulez ici</a>
+                </li>
+                <li>Contact:+1 234-567-8900</li>
+                <li>E-Mail:KNDH@GMAIL.COM</li>
+              </ul>
+        </div>
+        <div class="position">
+            <a  target="_blank" href="https://facebook.com/" class="face">
+                <img src="images/facebok.png" alt="Logo facebook." />
+            </a>
+            <a target="_blank" href="https://twitter.com/">
+                <img src="images/twitter.png" alt="Logo Twitter" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="Logo Instagram" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
